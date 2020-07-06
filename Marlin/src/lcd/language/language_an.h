@@ -25,7 +25,7 @@
  * Aragonese
  *
  * LCD Menu Messages
- * See also http://marlinfw.org/docs/development/lcd_language.html
+ * See also https://marlinfw.org/docs/development/lcd_language.html
  *
  */
 
@@ -165,7 +165,6 @@ namespace Language_an {
   PROGMEM Language_Str MSG_THERMAL_RUNAWAY                 = _UxGT("Error de temperatura");
   PROGMEM Language_Str MSG_ERR_MAXTEMP                     = _UxGT("Error: Temp Max");
   PROGMEM Language_Str MSG_ERR_MINTEMP                     = _UxGT("Error: Temp Min");
-  PROGMEM Language_Str MSG_ERR_Z_HOMING                    = _UxGT("Home XY first");
   PROGMEM Language_Str MSG_HALTED                          = _UxGT("IMPRESORA ATURADA");
   PROGMEM Language_Str MSG_PLEASE_RESET                    = _UxGT("Per favor reinic.");
   PROGMEM Language_Str MSG_SHORT_DAY                       = _UxGT("d");

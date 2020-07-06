@@ -25,7 +25,7 @@
  * Danish
  *
  * LCD Menu Messages
- * See also http://marlinfw.org/docs/development/lcd_language.html
+ * See also https://marlinfw.org/docs/development/lcd_language.html
  *
  */
 
@@ -141,7 +141,6 @@ namespace Language_da {
   PROGMEM Language_Str MSG_ERR_MINTEMP                     = _UxGT("Fejl: Min temp");
   PROGMEM Language_Str MSG_ERR_MAXTEMP_BED                 = _UxGT("Fejl: Maks Plade temp");
   PROGMEM Language_Str MSG_ERR_MINTEMP_BED                 = _UxGT("Fejl: Min Plade temp");
-  PROGMEM Language_Str MSG_ERR_Z_HOMING                    = _UxGT("Home XY først");
   PROGMEM Language_Str MSG_HALTED                          = _UxGT("PRINTER STOPPET");
   PROGMEM Language_Str MSG_PLEASE_RESET                    = _UxGT("Reset Venligst");
   PROGMEM Language_Str MSG_SHORT_DAY                       = _UxGT("d"); // Kun et bogstav
@@ -185,7 +184,7 @@ namespace Language_da {
 
   PROGMEM Language_Str MSG_FILAMENT_CHANGE_OPTION_RESUME   = _UxGT("Forsæt print");
 
-  PROGMEM Language_Str MSG_EXPECTED_PRINTER                = _UxGT("Forkert printer");
+  PROGMEM Language_Str MSG_KILL_EXPECTED_PRINTER           = _UxGT("Forkert printer");
 
   #if LCD_HEIGHT >= 4
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_INIT          = _UxGT(MSG_3_LINE("Vent på start", "af filament", "skift"));
