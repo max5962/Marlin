@@ -1130,12 +1130,12 @@
 #define X_BED_SIZE 220
 #define Y_BED_SIZE 220
 
-#define X_OFFSET_CLEANING 10
+
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS X_OFFSET_CLEANING
+#define X_MIN_POS -10
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
-#define X_MAX_POS X_BED_SIZE + X_OFFSET_CLEANING
+#define X_MAX_POS X_BED_SIZE 
 #define Y_MAX_POS Y_BED_SIZE
 #define Z_MAX_POS 300
 
@@ -1590,8 +1590,8 @@
 
   // Specify positions for each tool as { { X, Y, Z }, { X, Y, Z } }
   // Dual hotend system may use { {  -20, (Y_BED_SIZE / 2), (Z_MIN_POS + 1) },  {  420, (Y_BED_SIZE / 2), (Z_MIN_POS + 1) }}
-  #define NOZZLE_CLEAN_START_POINT { 235, 55, (Z_MIN_POS + 5) }
-  #define NOZZLE_CLEAN_END_POINT   { 240, 8, (Z_MIN_POS + 5) }
+  #define NOZZLE_CLEAN_START_POINT { 0, 55, (Z_MIN_POS + 5) }
+  #define NOZZLE_CLEAN_END_POINT   { 0, 8, (Z_MIN_POS + 5) }
 
   // Circular pattern radius
   #define NOZZLE_CLEAN_CIRCLE_RADIUS 6.5
