@@ -1130,7 +1130,7 @@
 #define X_BED_SIZE 220
 #define Y_BED_SIZE 220
 
-#define X_OFFSET_CLEANING
+#define X_OFFSET_CLEANING 10
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS X_OFFSET_CLEANING
 #define Y_MIN_POS 0
